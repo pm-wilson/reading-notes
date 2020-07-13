@@ -8,20 +8,52 @@
 
 ## Day 1 - Due 7/7/20 AM
 
-- [ ] HTML CH1
-- [ ] HTML CH8
-- [ ] HTML CH17
-- [ ] HTML CH18
-- [ ] JS CH1
+- [x] HTML CH1 Structure:
+      HTML describes structure. An HTML element is made up of the opening and closing tags. <br>
+      They can have attributes that tell us more about the element in the opening tag (not all tags will have closing tags). Tags usually have a name and value. <br>
+      The body element holds everything that is seen on the page. The head element holds information about the page, like the title.<br>
+      HTML pages are text documents.
+- [x] HTML CH8 Extra Markup:
+      Every HTML page should start with a !DOCTYPE html tag to show what version of HTML is being used. <br>
+      Comments can be added to leave a note to future developers, or to comment out code you do not want to run.<br>
+      All HTML elements can have an id or class attribute. Ids typically work well when using JavaScript and Classes work well with css. The more unique the style, the easier it is to manipulate that particular element. <br>
+      Block elements will always start on a new line (like a div) and inline elements will continue on if there is room (like a span). <br>
+      An iframe will be a window with another page inside it. Attributes iframes use is src to source the page, height and width, scrolling, frameborder and seamless to turn off scroll bars.<br>
+      The meta element goes in the head section and contains addtional information about the site. description, keywords, robots author, pragma, expires.<br>
+      Escape characters can be used to show symbols HTML reserves. If a particular symbol isn't showing up, you might need a new font for the symbol.
+- [x] HTML CH17 HTML 5 Layout:
+      HTML 5 has more sematic tags like article, header, aside to help show what elements are for. Older browsers might need to be told which elements are block level. Extra javascript free from Google might be needed to make newer elements backwards compatable with IE8.
+- [x] HTML CH18 Process and Design:
+      When designing a website it is a good idea to ask yourself who the site is for. This helps you design a site that will be good for the most important part of your audience. Ask yourself why they are visiting the page, so you can keep the most important information easy to find. Asking what your visitors are trying to achieve will help you keep the most important tasks easy to access. Asking yourself how often people will access your site will help you decide how often to update the site. <br>
+      It is useful to create a site map to organize all the infomration on a site. In the home page, you might have other groups of pages like about, articles, visit, shop, contac and each of these might lead to a few other pages that fit that category.<br>
+      When organizing how the page will look it is good to sketch a wireframe with areas set aside showing what information they will have.<br>
+      Using visual hierarchy like size, color, style or contrast like images can be used to attract attention. Grouping items with proximity, distance, continuance, color, borders and separated by white space can let a user know they are related.
+- [x] JS CH1 The ABCs of Programming:
+      A script is a series of instructions for the comupter. To write a script define a goal, design the script and code each step. Designing a script with a flowchart can help you decide what goes where. Scripts are made of Objects, Events and Methods. <br>
+      Web Browsers are programs built using Objects. The window object is the tab or window in the browser, the document object is the current document that is being viewed. <br>
+      HTML makes up the content, CSS handles the presentation, and Javascript manages the functionality of web pages. It is best to keep the JavaScript code in its own file.
 
 ---
 
 ## Day 2 - Due 7/8/20 AM
 
-- [ ] HTML CH2
-- [ ] HTML CH10
-- [ ] JS CH2
-- [ ] JS CH4
+- [x] HTML CH2 Text:
+      Html is made up of tags, otherwise known as markup. Structural markup is using the elements do describe headings and paragraphs. Semantic markup provides extra infomration such as where to place emphasis in a sentence and that something is a quote (and who said it).<br>
+      HTML has 6 levels of headings, with 1 the largest, and 6 the smallest. paragraphs by default will be shown on the next line.<br>
+      Text can either be bold with b or itallic with i tags. Sup and sub make super or subscript. <br>
+      Browsers will show only one blank space for multiple spaces or a line break. The line break br tag adds a line brake and the hr tag adds 2 line breaks witha horizontal line between. <br>
+      Semantic markup uses strong to indicate bold and em for itallic. Blockquote is used for multi line quotes and q is used for shorter quotes. Abbr can be used for abbreviations or acronynms. Cite can be used to show where a citation is from and dfn is for a definition. Address should be used for contact info for the author of the page. Ins can be used to underine to show content added and del can be used for strikethrough to show content removed from a site. S shows something no longer relevant, but also not deleted.
+- [x] HTML CH10 CSS Intro:
+      Every element is in a box. Css associates rules with html elements. A selector tells CSS what to select and the property tells it what to change about that element, and the value tells it by how much to change it.<br>
+      Css can link externally with href, type, rel and src. Css can also link internally with style.<br>
+      Css rules cascade and the latest, most accurate style will overwrite previous styles.
+- [x] JS CH2 Basic JavaScript Instructions:
+      Statements are instructions and should start on a new line. Comments can be added to keep track of what the code is doing, or removing code from the script. Variables hold on to information as long as they are in scope. Simple data types are stings, numbers and boolean. <br>
+      Variable names must start with a dollar sign underscore or letter, dash and period is not allowed, special javascript key words are not allowed and the variable should be named carefully so later developers will be able to tell it apart from other variables. Variables should be written in camelCase.<br>
+      Variables can also be an array notated within brackets and separated with commas [1,2,3]. Values can be accessed by the index, starting with 0.
+- [x] JS CH4 Decisions and Loops (to switch):
+      Decisions can be made based with these statements: if else if..else. Comparisons can be made with a bang, triple equals, less or greater than. Logic can be applied with and, or, bang.<br>
+      All data types break down into truthy or falsey values. Falsey values include 0, empty strings, NaN, not assigned, empty values, false. Truthy values are strings with characters, other numbers besides 0, true.<br>
 
 ---
 
@@ -34,9 +66,7 @@
       The box model consists of the element with padding, border, and margins around it. Padding is the popcorn within the box giving white space between content and the border, the border is like the box that wraps the content and the margin is the space between it and the next box. Margins overlap, so only the largest margin will show.<br>
       Borders can be styled a few different ways including with a picture. Box shadow can give them a 3D look.<br>
       Boxes can be hidden 2 ways, display: none will remove it from the page flow, and visibility: hidden will hold its place. Either way the user can see the content in the page code.
-- [x] JS CH4 Decisions and Loops:<br>
-      Decisions can be made based with these statements: if else if..else. Comparisons can be made with a bang, triple equals, less or greater than. Logic can be applied with and, or, bang.<br>
-      All data types break down into truthy or falsey values. Falsey values include 0, empty strings, NaN, not assigned, empty values, false. Truthy values are strings with characters, other numbers besides 0, true.<br>
+- [x] JS CH4 Decisions and Loops (after switch):<br>
       Functions are groups of related tasks that can take parameters. Objects represent some thing. Functions on objects are Methods and variables on objects are Properties. Objects get some default Methods and Properties. Arrays of objects can create complex data sets.
 
 ---

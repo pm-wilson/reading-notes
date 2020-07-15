@@ -1,12 +1,10 @@
 # reading-notes
 
----
-
 - [x] Chapter Read and Notes Taken
 
 ---
 
-## Day 1 - Due 7/7/20 AM
+## Read 1 - Due 7/7/20 AM
 
 - [x] HTML CH1 Structure:
       HTML describes structure. An HTML element is made up of the opening and closing tags. <br>
@@ -35,7 +33,7 @@
 
 ---
 
-## Day 2 - Due 7/8/20 AM
+## Read 2 - Due 7/8/20 AM
 
 - [x] HTML CH2 Text:
       Html is made up of tags, otherwise known as markup. Structural markup is using the elements do describe headings and paragraphs. Semantic markup provides extra infomration such as where to place emphasis in a sentence and that something is a quote (and who said it).<br>
@@ -57,7 +55,7 @@
 
 ---
 
-## Day 3 - Due 7/9/20 AM
+## Read 3 - Due 7/9/20 AM
 
 - [x] HTML CH3 Lists:<br>
       Lists can be numbered with ol, bulleted with ul, or definitions with dl. Definitions can be terms with dt or definitions with dd. I was surprised to find that lists can be nested in list items to indent further.
@@ -71,7 +69,7 @@
 
 ---
 
-## Day 4 - Due 7/10/20 AM
+## Read 4 - Due 7/10/20 AM
 
 - [x] HTML CH4 Links:<br>
       Links allow you to move to another target page (or specific place within), file or email. A link target is href and the text is between the a tags. If linking on the same site you do not need to include the domain.<br>
@@ -87,7 +85,6 @@
 - [x] JS CH3 Functions, Methods, Objects:<br>
       Functions group instructions for a series of tasks. Before being called, functions must be declared. Parameters can be passed to a function from the previous scope and return can send infomration back to that original scope. Functions can only return a single value, but that value can be an array or object with multiple values within.<br>
       Methods are functions that live on an Object.<br>
-      Objects represent real world things modeled by a set of variables and functions. Objects are made of key: value pairs. Objects can be created literally defined into a varaible, and they can be made with a constructor defined by declaring a function. The New keyword will instruct the function to create a new object based on the outcome of the function. Properties can be added, removed and accessed with dot notation if the path is static, or bracket notation if it will be dynamically determined. This can be used to reference the object that the function is created inside.<br>
       Arrays and Objects are used to store complex data. Arrays can be made up of objects, and objects can use arrays as values. <br>
       The Browser Object starts with the window and contains information on the browser. Within that is the Document Object which contains the document the current window or tab is referencing. Global variables are in the scope of anything at this level.<br>
       Data can also be strings and numbers and each have their own Methods. Custom Methods can also be built for objects.<br>
@@ -97,7 +94,7 @@
 
 ---
 
-## Day 5 - Due 7/13/20 AM
+## Read 5 - Due 7/13/20 AM
 
 - [x] HTML CH5 Images:
       As the site grows, organize images into folders. <br>
@@ -113,3 +110,30 @@
       Font-weight can be used to set bold and font-style can be used for italic(based on calligraphy) or oblique(angled). Text-transform can be used for upperase, lowercase and capitalize. Text decoration can be used to underline, overline line-through or blink. Line-height can be used to change the height of the line the letters are on. Letter/word-spacing changes the distance between letters and words. text-align aligns the text to the left, right, center or justify. Vertical-align aligns vertically. Text-indent indents the first line of text in the element. Text-shadow gives each letter a shadow.<br>
       First-letter/line can specify a style for the first letter or line with a style. Links can be styled with :link(not yet clicked) and :visited(already clicked). Styles can be set to :hover for when the mouse is over the element, :active for when the element i being activated, or :focus for while the element is in focus.
       Text can also change more generally with color, spacing.
+
+## Read 6 - Due 7/15/20 AM
+
+- [ ] JS CH3 Object Literals (pp100-105):
+      Objects represent real world things modeled by a set of variables and functions. Objects are made of key: value pairs. Objects can be created literally defined into a varaible, and they can be made with a constructor defined by declaring a function. The New keyword will instruct the function to create a new object based on the outcome of the function. Properties can be added, removed and accessed with dot notation if the path is static, or bracket notation if it will be dynamically determined. This can be used to reference the object that the function is created inside.<br>
+- [ ] JS CH5 Document Object Model (pp183-242):
+      The DOM tells the browser how it should model the HTML and how the JavaScript can access and update the web page. It is not part of HTML or JavaScript.<br>
+      The DOM is the model the browser builds based off the HTML and JS. The 4 types of node types are the document, element, attribute, and text nodes.<br>
+      The Document Node corresponds to the document object and is the entire page. The Element nodes are the elements described in the html. The Attribute nodes are the attributes assigned to the opening html tags. The text nodes are the text within elements, and can not have any nodes within them.<br>
+      The DOM tree can be accessed by getting the node you want to work with and using its text, child elements, and attributes.<br>
+      DOM queries are methods that find DOM elements (like getElementById, querySelector, GetElementsByClassName, getElementsByTagName, QuerySelectorAll). If the selector returns multiple nodes, they will be in an array. Looping through these arrays can be a good way to apply code to each node.<br>
+      Traversing the DOM can be done with Parent Node to get the parent, previous/nextSibling to get the corresponding sibling, first/lastChild to get the corresponding child in the element. Some browsers treat the whitespace in the html as text nodes so might cause unforseen issues unless all the whitespace is removed.<br>
+      Text content can be accessed from the parent node. textContent is the best way to change text, innerText should generally be avoided, and innerHTML can add other nodes but has security risks. Users can potentially add scripts if their data is added with innerHTML. To protect against this validate data going to server and double check on the server side. Escape all potentially dangerous characters like amp, greater than, less than, quote, etc. Limit where user content goes.<br>
+      Nodes can be created with createElement() and appended to another node with append(). removeChild() can be used to remove an element. Once you have a node saved in a variable, you can modify its attributes.<br>
+      The DOM can be inspected in Chrome with the Developer Tools. Many browsers have similar tools.
+
+## Read 8 - Due 7/16/20 AM
+
+- [ ] Local Storage:
+
+## Read 9 - Due 7/17/20 AM
+
+- [ ] HTML CH7 Forms (pp144-175):
+- [ ] HTML CH14 Lists, Tables & Forms (pp330-357):
+- [ ] JS CH6 Events (pp243-292):
+
+## Read 10 - Due 7/??/20 AM

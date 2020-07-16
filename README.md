@@ -113,9 +113,9 @@
 
 ## Read 6 - Due 7/15/20 AM
 
-- [ ] JS CH3 Object Literals (pp100-105):
+- [x] JS CH3 Object Literals (pp100-105):
       Objects represent real world things modeled by a set of variables and functions. Objects are made of key: value pairs. Objects can be created literally defined into a varaible, and they can be made with a constructor defined by declaring a function. The New keyword will instruct the function to create a new object based on the outcome of the function. Properties can be added, removed and accessed with dot notation if the path is static, or bracket notation if it will be dynamically determined. This can be used to reference the object that the function is created inside.<br>
-- [ ] JS CH5 Document Object Model (pp183-242):
+- [x] JS CH5 Document Object Model (pp183-242):
       The DOM tells the browser how it should model the HTML and how the JavaScript can access and update the web page. It is not part of HTML or JavaScript.<br>
       The DOM is the model the browser builds based off the HTML and JS. The 4 types of node types are the document, element, attribute, and text nodes.<br>
       The Document Node corresponds to the document object and is the entire page. The Element nodes are the elements described in the html. The Attribute nodes are the attributes assigned to the opening html tags. The text nodes are the text within elements, and can not have any nodes within them.<br>
@@ -125,10 +125,16 @@
       Text content can be accessed from the parent node. textContent is the best way to change text, innerText should generally be avoided, and innerHTML can add other nodes but has security risks. Users can potentially add scripts if their data is added with innerHTML. To protect against this validate data going to server and double check on the server side. Escape all potentially dangerous characters like amp, greater than, less than, quote, etc. Limit where user content goes.<br>
       Nodes can be created with createElement() and appended to another node with append(). removeChild() can be used to remove an element. Once you have a node saved in a variable, you can modify its attributes.<br>
       The DOM can be inspected in Chrome with the Developer Tools. Many browsers have similar tools.
+- [x] Understanding the Problem Domain:
+      By creating something that is easily understood, the focus can be on learning the technology itself, rather than what it is you are trying to make. Coding is much easier if the design is well done, or if you already understand what the program needs to do from start to finish. Making the problem domain easier or getting better at understanding them are two ways to make this part of coding easier. Discussing what the program will do with users or designers is a great way to do this.
 
 ## Read 8 - Due 7/16/20 AM
 
-- [ ] Local Storage:
+- [x] Local Storage:
+      Historically web applications didn't have options for easy local storage, unlike programs installed on a computer. Cookies were used, but had disadvantages like slowing the page, unencrypted, and only include about 4kb of data. Before HTML5, there were a few hacks that were used.<br>
+      All the hacks worked only for certain browsers, or needed various software installed until HTML5 Storage. HTML5 storage saves data in key, value pairs and the data doesnt leave the client machine until it is requested by the page. <br>
+      The drawback to HTML5 Storage is 5mb of space for each origin and not all browsers let this change. <br>
+      The future of web storage and there are a few competing ideas. SQL would be able to store all the data on a remote database. IndexDB is another idea that some companies support.
 
 ## Read 9 - Due 7/17/20 AM
 

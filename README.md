@@ -138,8 +138,17 @@
 
 ## Read 9 - Due 7/17/20 AM
 
-- [ ] HTML CH7 Forms (pp144-175):
-- [ ] HTML CH14 Lists, Tables & Forms (pp330-357):
-- [ ] JS CH6 Events (pp243-292):
+- [x] HTML CH7 Forms (pp144-175):
+      Forms offer a good way to collect data from users. Form inputs come in many different types like text, password, radio buttons, checkboxes and drop down boxes. <br>
+      Every form needs an action attribute to specify the server address the information will go. They also need an id to identify the data. The form inputs can be different depending on their type and each one should have a name to reference the data.
+- [x] HTML CH14 Lists, Tables & Forms (pp330-357):
+      Lists can be styled with the list-style css property. Unordered lists can be disc, circle, square. Ordered lists can be decimal, decimal-leading-zero, upper/lower-alpha, upper/lower-roman. Pictures can also be used. <br>
+      Forms can be styled different ways and the better the form looks, the more willing people will be to fill them out. Even the cursor can be styled.
+- [x] JS CH6 Events (pp243-292):
+      When using the internet you can set up events that will trigger when certain things happen, once triggered code can run. To do this, first get the DOM node that you want the script to respond to, then indicate which event will run the response, then state the code you want to run.<br>
+      The event handlers can be in the HTML, but mixes the javascript with the HTML so dont use this. The DOM event handler holds the event handler in the script but cannot use paramaters. Event Listeners are the newest way to trigger events and can trigger multiple functions, but isnt supported in some older browsers. Fallback code can be written to make this supportable in older versions of IE.<br>
+      The Event Flow controls how events are handled by nested ancestors. Event Bubbling means the event starts at the most specific node and out to the least specific node. Event Capturing means the event starts at the least specific node and moves in to the most specific.<br>
+      Event Delegation is to have fewer events, and let the events reference your target so you can have fewer event handlers that might slow down the page. The event's object's target can determine the target.<br>
+      User Interface events occur as a result of interaction with the browser window rather than the HTML page.
 
 ## Read 10 - Due 7/??/20 AM

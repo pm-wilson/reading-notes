@@ -151,4 +151,26 @@
       Event Delegation is to have fewer events, and let the events reference your target so you can have fewer event handlers that might slow down the page. The event's object's target can determine the target.<br>
       User Interface events occur as a result of interaction with the browser window rather than the HTML page.
 
-## Read 10 - Due 7/??/20 AM
+## Read 10 - Due 7/20/20 AM
+
+- [ ] HTML CH15 Layout (re-read):
+      Each HTML element is treated as if it is in its own box, and each box is either inline or block level. Inline will display next to and block will display below the previous element.<br>
+      Fixed width layouts have a fixed width and makes it easy to control size and positioning. Image and text sizes are easy to control. Liquid layouts change as the users screen size change and is tolerant of different sized screens. <br>
+      Separate style sheets can be used to manage different parts of the style on your site.
+- [ ] JS CH10 Error Handling & Debugging:
+      Order of execution is important to understand when searching for a bug in the program. Most functions are either in global scope or function scope and the scope is the information the function has access to. The interpreter goes throgh the code line by line and follows the commands, called the stack. As the script enters a new execution context there are two phases, prepare and execute. Variable declarations (not values) and function declarations are hoisted to the top to be interpreted first then the code is ran. Scope is determined by the information that gets prepared in the prepare context along with any parent variables that are available (like global variables). If JavaScript generates an error it throws an exception, the interpreter stops and looks for handling code. The error code can show several types of errors and will likely give you a line in the code that caused it. Console logs can show you the information available at a specific time in the code and debugger statements can pause the code and show you what is going on in dev tools. Break points can be set within the console to add debugger statements that way. <br>
+      Try, catch and finally can be used if you know you are goign to get an error to gather more information.
+
+## Read 12 - Due 7/22/20 AM
+
+- [ ] Charts.js API:
+- [ ] Canvas API Basic Usage:
+- [ ] Canvas API Drawing Shapes with Canvas:
+- [ ] Canvas Applying Styles and Colors:
+- [ ] Drawing Text:
+
+## Read 10 - Due 7/24/20 AM
+
+- [ ] HTML CH16 Images (pp406-427):
+- [ ] HTML CH19 Practical Information (pp476-492):
+- [ ] JS CH9 Flash (pp201-206):

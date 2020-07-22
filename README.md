@@ -153,24 +153,79 @@
 
 ## Read 10 - Due 7/20/20 AM
 
-- [ ] HTML CH15 Layout (re-read):
+- [x] HTML CH15 Layout (re-read):
       Each HTML element is treated as if it is in its own box, and each box is either inline or block level. Inline will display next to and block will display below the previous element.<br>
       Fixed width layouts have a fixed width and makes it easy to control size and positioning. Image and text sizes are easy to control. Liquid layouts change as the users screen size change and is tolerant of different sized screens. <br>
       Separate style sheets can be used to manage different parts of the style on your site.
-- [ ] JS CH10 Error Handling & Debugging:
+- [x] JS CH10 Error Handling & Debugging:
       Order of execution is important to understand when searching for a bug in the program. Most functions are either in global scope or function scope and the scope is the information the function has access to. The interpreter goes throgh the code line by line and follows the commands, called the stack. As the script enters a new execution context there are two phases, prepare and execute. Variable declarations (not values) and function declarations are hoisted to the top to be interpreted first then the code is ran. Scope is determined by the information that gets prepared in the prepare context along with any parent variables that are available (like global variables). If JavaScript generates an error it throws an exception, the interpreter stops and looks for handling code. The error code can show several types of errors and will likely give you a line in the code that caused it. Console logs can show you the information available at a specific time in the code and debugger statements can pause the code and show you what is going on in dev tools. Break points can be set within the console to add debugger statements that way. <br>
       Try, catch and finally can be used if you know you are goign to get an error to gather more information.
 
 ## Read 12 - Due 7/22/20 AM
 
-- [ ] Charts.js API:
-- [ ] Canvas API Basic Usage:
-- [ ] Canvas API Drawing Shapes with Canvas:
-- [ ] Canvas Applying Styles and Colors:
-- [ ] Drawing Text:
+- [x] Charts.js API:
+      Charts.js is a way to convert data to line, bar or pie charts. <br>
+      To get started, make a canvas element where the chart will be nested, then add a script element to retrieve the context of the canvas. In the script we create the data. new Chart(data).chart type(chart data, chart options) is the syntax.<br>
+      For a pie chart we have 3 main options, segmentShowStroke : true/false to remove the stroke from the sections, and animateScale: true/false to animate the scale of the pie so it zooms out from nothing. The data is an array of objects with value and color as the keys in each object.<br>
+      For a line chart the data objects contain fillColor, strokeColor, pointColor, pointStrokeColor, and data in an array.<br>
+      For a bar chart uses the same options, but the data objects in the array have fillColor, StrokeColor, and data in an array. <br>
+      Charts.js github is located here: https://github.com/chartjs/Chart.js
+- [x] Canvas API Basic Usage:
+      canvas elements are like images, but only have a width and height, no alt or src is needed and uses a canvas element.<br>
+      The script starts gets the node object, once you have this, you can access the drawing context using getContext(). <br>
+      More information can be found here: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Basic_usage
+- [x] Canvas API Drawing Shapes with Canvas:
+      Once the envrironment is setup we can set up the grid to draw on. Canvas can only draw rectangles, or coordinates connected by lines. To draw rectangles these functions can help: fillRect(x, y, width, height), strokeRect(x, y, width, height), clearRect(x, y, width, height). x and y correspond to the top left corner on the rectangle.<br>
+      Other shapes can be built using beginPath() for a new path, closePath(), stroke(), fill(), moveTo(x, y), lineTo(x, y), quadraticCurveTo(cp1x, cp1y, x, y), bezierCureTo(cp1x, cp1y, cp2x, cp2y,x, y). <br>
+      Multiple objects can be drawn, and svg paths can be used. <br>
+      More info can be found at: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes
+- [x] Canvas Applying Styles and Colors:
+      Colors can be defined using fillStyle = css color and strokeStyle = css color for the outline, globalAlpha = transparency. Lines can be styled with lineWidth = value, lineCap = type, lineJoin = type, miterLimit = value, getLineDash(), setLineDash(), lineDashOffset = value. Linear and radiant gradients can be made, along with patterns.<br>
+      For more information see: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Applying_styles_and_colors
+- [x] Drawing Text:
+      There are two methods for drawing text, fillText(text, x, y, [, maxWidth]) and strokeText(text, x, y [, maxWidth]).<br>
+      Text can be styled with font = value, textAlign = value, textBaseline = value, and direction = value, measureText() can return the text width.<br>
+      For more information see: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_text
 
 ## Read 10 - Due 7/24/20 AM
 
-- [ ] HTML CH16 Images (pp406-427):
-- [ ] HTML CH19 Practical Information (pp476-492):
-- [ ] JS CH9 Flash (pp201-206):
+- [] HTML CH16 Images (pp406-427):
+- [] HTML CH19 Practical Information (pp476-492):
+- [x] HTML CH9 Flash (pp201-206):
+      Flash files are called flash movies. Flash files are created as .fla file types, but changed to swf file types to use. Flash makes animations pretty well, but JavaScript is getting better and better at handling them these days and Flash doesn't meet requirements making it easy on accessibility issues.
+- [x] What Google Learned on its Quest to Build the Perfect Team:
+      To prepare students for a complex working world, schools are starting to emphasize teamwork focused learning. Studies show groups tend to innovate faster, catch more mistakes and find better solutions. Google started project Aristotle to study how teams worked. <br>
+      After taking in a massive amount of data, Google was unable to find a pattern based on people types. Project Aristotle began looking into group norms, or the rules that dictate how the group behaves. They gathered data for a year and found patters that often conflicted with eachother. <br>
+      They found that the best teams members generally talked as much as each other and had high social sensitivity. They found that psychological safety, more than anythingelse, was critical to making a team work. <br>
+      They had trouble finding a way to scale psychological safety, so they released the data internally to Google to come up with ideas. They found that being emotionally open within the team helped people work better together.
+- [x] CSS Transforms:
+      Transform can change how elements look in 2d or 3d. In 2d they can be rotated, scaled, translated (moved), skewed, or any combination of these. TransformOrigin specifies where the transform will take place from. <br>
+      3d tranformations need to have a perspective from which to transform. 3d transformations make the element look like it is being seen from the set perspective, or rotated in front of the user. 3d translate can push an element far away and 3d skew can not skew on the z axis. <br>
+      In order to transform a child of a transformed element, transform-style: preserve-3d must be used. When looking at the back of an element, backface-visibility: hidden can hide the information on the front of the element.
+- [x] CSS Transitions & Animations:
+      For a transition to take place, the element needs a chane in state and different styles are set to each change of state. Psudo classes like :hover :focus :active :target are common ones to use.<br>
+      There are 4 transition properties in total: transition-property, transition-duration, transition-timing-function, transition-delay. Only properties that have a calculatable half way point can be transitioned, like color and font-size. Font, display and others are unable to transition. Keyframes can also be transitioned.
+- [x] 8 Simple CSS3 Transitions that Will Wow your Users:
+
+1. Fade In: .fade {opacity: 0.5}, .fade:hover {opacity: 1}
+1. Change Color: .color:hover {background: color}
+1. Grow/Shrink: .grow:hover {transform: scale(1.3)}
+1. Rotate Elements: .rotate:hover {transofrm: rotateZ(-30deg)}
+1. Square to Circle: .circle:hover {border-radius: 50%}
+1. 3d Shadow: .threed:hover {box-shadow: 1px 1px color, 2px 2px, color, 3px 3px color; transform: translateX(-3px)}
+1. Swing: @keyframes swing {transform: translate(5px)}, a few times back and fourth with .swing:hover{animation: swing 1s ease;}
+1. Insert Border: .border:hover {box-shadow: inset 0 0 0 25px color}
+   Examples here: http://www.webdesignerdepot.com/2014/05/8-simple-css3-transitions-that-will-wow-your-users
+
+- [x] 6 Buttons Animated:
+      Buttons move with keyframes, and change color on focus<br>
+      Example Here: https://codepen.io/retyui/pen/ByoaXV
+- [x] CSS3 Animations Keyframes:
+      Ball is made with border-radius, bounces with animation and timed with keyframes.<br>
+      Example Here: https://codepen.io/akshaychauhan/pen/oAfae
+- [x] 404:
+      Font-size shrinks and transforms position<br>
+      Example Here: https://codepen.io/kieranfivestars/pen/MYdQxX
+- [x] Pure CSS Bounce Animation
+      Animated with keyframes, gravity similated with ease-in/out<br>
+      Example Here: https://codepen.io/dp_lewis/pen/gCfBv

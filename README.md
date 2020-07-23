@@ -189,8 +189,15 @@
 
 ## Read 10 - Due 7/24/20 AM
 
-- [] HTML CH16 Images (pp406-427):
-- [] HTML CH19 Practical Information (pp476-492):
+- [x] HTML CH16 Images (pp406-427):
+      It is good to keep the styling rules separate than the html elements to make it easier to maintain your site. Size can be controlled using height and width like other elements. Often a website will have similar sized pictures accross the entire site. Images can be aligned in their container with img.align-right/center/left. To put the image behind the content, use background-image. <br>
+      A rollover is the style that an element changes to when the cursor hovers over it, and usually they have a third style for when it is clicked. A sprite is when part of an image is used and the cordinates of what part get moved around to change what is shown. Gradients can be selected to blend two colors accross the background. <br>
+      When overlaying text onto a background image, the image should be low contrast to make the text readable. A semi opaque element over an image can lower the contrast.
+- [x] HTML CH19 Practical Information (pp476-492):
+      SEO or Search Engine Optimization is the practice of trying to make your site above others on a search. On page techniques are things like keywords, appropriate text in the alt value of images. Off page techniques are having other sites with similar content linking to yours along with words within <a> elements. <br>
+      In every page there are 7 key places to have keywords. Page title, url/web addresses, headings, text, link text, image alt text, page descriptions. Identifying which words to use for key words might take some brainstorming, or research to find the best ones. Organize the words in sections to keep them organized for future updating. <br>
+      Google Analytics can help get you data on your visitors like number of visits, unique visits, page views, average time on page, etc. <br>
+      To get on the web you will need a domain name and web hosting. The domain is the word before and after the dot, like google for google.com. A web host is a computer that will serve your page to the web at any time. FTP sites can send data and other sites that can help. <br>
 - [x] HTML CH9 Flash (pp201-206):
       Flash files are called flash movies. Flash files are created as .fla file types, but changed to swf file types to use. Flash makes animations pretty well, but JavaScript is getting better and better at handling them these days and Flash doesn't meet requirements making it easy on accessibility issues.
 - [x] What Google Learned on its Quest to Build the Perfect Team:
